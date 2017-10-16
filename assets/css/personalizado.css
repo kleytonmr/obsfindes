@@ -1,0 +1,937 @@
+
+
+/*
+Designerd by: OpeSociais
+*/
+
+
+body{
+	background: white;
+}
+
+/*Definições do titulo e ajuste da icon do findes na barra */
+@media screen and (max-width:998px) {
+    .navbar-brand{
+			margin: 0;
+			padding: 0;
+
+	}
+	.navbar-header img{
+		height: 50px;
+				
+	}
+
+	.navbar-header img{
+		height: 50px;		
+	}
+}
+
+section.img-header{
+	padding-top: 56px;
+}
+
+/*Reajuste para  320px*/
+
+@media screen and (max-width: 320px) and (min-width: 300px) {
+
+	div #industria h6{
+		font-size: 3.4em;
+		padding-top: 0.8em;
+	}
+	
+	div #desenv h6{
+		font-size: 2.2em;
+		margin-top: -0.5em;
+	}
+
+	div #comercio h6{
+		font-size: 3.2em;
+		margin-top: -1em;
+	}
+
+	div #cni h6{
+		font-size: 6em;
+		margin-top: -1.3em;
+	}
+
+	div	#cni-adjust-size{
+		height: 255px; 
+	}
+
+	div #mercado h6{
+		font-size: 3.1em;
+		padding-top: 1em;
+	}
+
+	div #social h6{
+		font-size: 4.5em;
+	}
+
+	div #senai h6{
+		font-size: 4.2em;
+	}
+
+	div #sesi h6{
+		font-size: 4.7em;
+	}
+
+	div #setorial h6{
+		font-size: 4.3em;	
+		margin-top: -0.3em;
+	}
+
+	/*ajusta imagem industria e comercio*/
+	div .img-adjust  img{
+		height: 255px;
+	}
+
+	/*ajusta espaçamento entre comércio exterior e cni*/
+	div  #comercio-img-adjust{
+		padding-bottom: 33px;
+	}
+}
+
+/*Reajuste para  368px*/
+
+@media screen and (max-width: 368px) and (min-width: 321px) {
+
+	div #industria h6{
+		font-size: 3.5em;
+		padding-top: 0.8em;
+	}
+	
+	div #desenv h6{
+		font-size: 2.5em;
+		margin-top: -0.5em;
+	}
+
+	div #comercio h6{
+		font-size: 3.5em;
+		margin-top: -1em;
+	}
+
+	div #cni h6{
+		font-size: 6em;
+		margin-top: -1.6em;
+	}
+
+	div	#cni-adjust-size{
+		height: 255px; 
+	}
+
+	div #mercado h6{
+		font-size: 3.3em;
+		padding-top: 1em;
+	}
+
+	div #social h6{
+		font-size: 4.5em;
+	}
+
+	div #senai h6{
+		font-size: 4.2em;
+	}
+
+	div #sesi h6{
+		font-size: 4.7em;
+	}
+
+	div #setorial h6{
+		font-size: 4.3em;	
+		padding-top: -2.5em;
+	}
+
+	/*ajusta imagem industria e comercio*/
+	div .img-adjust  img{
+		height: 255px;
+	}
+
+	/*ajusta espaçamento entre comércio exterior e cni*/
+	div  #comercio-img-adjust{
+		padding-bottom: 33px;
+	}
+}
+
+
+/*Reajuste para  375px*/
+
+@media screen and (max-width: 375px) and (min-width: 325px) {
+
+	div #industria h6{
+		font-size: 3.5em;
+		padding-top: 0.8em;
+	}
+	
+	div #desenv h6{
+		font-size: 2.5em;
+		margin-top: -0.5em;
+	}
+
+	div #comercio h6{
+		font-size: 3.5em;
+		margin-top: -1em;
+	}
+
+	div #cni h6{
+		font-size: 6em;
+		margin-top: -1.8em;
+	}
+
+	div	#cni-adjust-size{
+		height: 255px; 
+	}
+
+	div #mercado h6{
+		font-size: 3.3em;
+		padding-top: 0.7em;
+	}
+
+	div #social h6{
+		font-size: 4.5em;
+	}
+
+	div #senai h6{
+		font-size: 4.2em;
+	}
+
+	div #sesi h6{
+		font-size: 4.7em;
+	}
+
+	div #setorial h6{
+		font-size: 4.3em;	
+		padding-top: -2.5em;
+	}
+
+	/*ajusta imagem industria e comercio*/
+	div .img-adjust  img{
+		height: 255px;
+	}
+
+	/*ajusta espaçamento entre comércio exterior e cni*/
+	div  #comercio-img-adjust{
+		padding-bottom: 33px;
+	}
+}
+
+/*Reajuste para  420px*/
+
+@media screen and (max-width:420px) and (min-width: 376px) {
+
+	div #industria h6{
+		font-size: 3.5em;
+		padding-top: 0.6em;
+	}
+	
+	div #desenv h6{
+		font-size: 3em;
+		margin-top: -0.5em;
+	}
+
+	div #comercio h6{
+		font-size: 4.2em;
+		margin-top: -1em;
+	}
+
+	div #cni h6{
+		font-size: 6em;
+		margin-top: -2em;
+	}
+
+	div	#cni-adjust-size{
+		height: 284px; 
+	}
+
+	div #mercado h6{
+		font-size: 3.7em;
+		padding-top: 0.5em;
+	}
+
+	div #social h6{
+		font-size: 5.3em;
+	}
+
+	div #senai h6{
+		font-size: 4.9em;
+	}
+
+	div #sesi h6{
+		font-size: 5.5em;
+	}
+
+	div #setorial h6{
+		font-size: 4.8em;	
+		padding-top: 7%;
+	}
+
+	/*ajusta imagem industria e comercio*/
+	div .img-adjust  img{
+		height: 255px;
+	}
+
+	/*ajusta espaçamento entre comércio exterior e cni*/
+	div  #comercio-img-adjust{
+		padding-bottom: 33px;
+	}
+}
+
+/*Reajuste para  768px*/
+
+@media screen and (max-width: 768px) and (min-width: 430px) {
+
+	div #industria h6{
+		font-size: 4em;
+		padding-top: 0.4em;
+	}
+	
+	div #desenv h6{
+		font-size: 3.2em;
+		margin-top: -2.7em;
+	}
+
+	div #desenv-adjust-size{
+		height: 220px;
+	}
+
+	div #comercio h6{
+		font-size: 4em;
+		margin-top: -3em;
+	}
+
+	div #comercio-adjust-size{
+		height: 220px;
+	}
+
+	div #cni h6{
+		font-size: 6em;
+		margin-top: -4.8em;
+	}
+
+	div	#cni-adjust-size{
+		height: 220px;
+	}
+
+	div #mercado h6{
+		font-size: 4.5em;
+		margin-top: -0.23em;
+	}
+
+	div #social h6{
+		font-size: 6.3em;
+		margin-top: -1.5em;
+	}
+
+	div #social-adjust-size{
+		height: 220px;
+	}
+
+	div #senai h6{
+		font-size: 6em;
+		margin-top: -1.5em;
+	}
+
+	div #senai-adjust-size{
+		height: 220px;
+	}
+
+	div #sesi h6{
+		font-size: 6em;
+		margin-top: -1.5em;
+	}
+
+	div #sesi-adjust-size{
+		height: 220px;
+	}
+
+	div #setorial h6{
+		font-size: 5.4em;	
+		margin-top: -2em;
+	}
+
+	div #setorial-adjust-size{
+		height: 220px;
+	}
+
+	/*ajusta imagem industria e comercio*/
+	div .img-adjust  img{
+		height: 255px;
+	}
+
+	/*ajusta espaçamento entre comércio exterior e cni*/
+	div  #comercio-img-adjust{
+		padding-bottom: 33px;
+	}
+}
+
+/*Reajuste para  772px*/
+
+@media screen and (max-width: 1000px) and (min-width: 770px) {
+
+	div #industria h6{
+		font-size: 5em;
+		padding-top: 0.4em;
+	}
+	
+	div #desenv h6{
+		font-size: 3.2em;
+		margin-top: -2.7em;
+	}
+
+	div #desenv-adjust-size{
+		height: 220px;
+	}
+
+	div #comercio h6{
+		font-size: 4em;
+		margin-top: -3em;
+	}
+
+	div #comercio-adjust-size{
+		height: 220px;
+	}
+
+	div #cni h6{
+		font-size: 6em;
+		margin-top: -4.8em;
+	}
+
+	div	#cni-adjust-size{
+		height: 220px;
+	}
+
+	div #mercado h6{
+		font-size: 4.5em;
+		margin-top: -0.23em;
+	}
+
+	div #social h6{
+		font-size: 6.3em;
+		margin-top: -1.5em;
+	}
+
+	div #social-adjust-size{
+		height: 220px;
+	}
+
+	div #senai h6{
+		font-size: 6em;
+		margin-top: -1.5em;
+	}
+
+	div #senai-adjust-size{
+		height: 220px;
+	}
+
+	div #sesi h6{
+		font-size: 6em;
+		margin-top: -1.5em;
+	}
+
+	div #sesi-adjust-size{
+		height: 220px;
+	}
+
+	div #setorial h6{
+		font-size: 5.4em;	
+		margin-top: -2em;
+	}
+
+	div #setorial-adjust-size{
+		height: 220px;
+	}
+
+	/*ajusta imagem industria e comercio*/
+	div .img-adjust  img{
+		height: 255px;
+	}
+
+	/*ajusta espaçamento entre comércio exterior e cni*/
+	div  #comercio-img-adjust{
+		padding-bottom: 33px;
+	}
+}
+
+/*Reajuste para  1024px*/
+
+@media screen and (max-width:1024px) and (min-width: 1000px) {
+
+	div #industria h6{
+		font-size: 3.5em;
+		padding-top: 0.6em;
+	}
+	
+	div #desenv h6{
+		font-size: 2.3em;
+		margin-top: -0.5em;
+	}
+
+	div	#desenv-adjust-size{
+		 
+	}
+
+	div #comercio h6{
+		font-size: 3.6em;
+		margin-top: -1em;
+	}
+
+	div	#comercio-adjust-size{
+		 
+	}
+
+	div #cni h6{
+		font-size: 6em;
+		margin-top: 0.3em;
+	}
+
+	div	#cni-adjust-size img{
+		height: 484px; 
+	}
+
+	div #mercado h6{
+		font-size: 3.7em;
+		padding-top: 0.5em;
+	}
+
+	div	#mercado-adjust-size{
+		 
+	}
+
+	div #social h6{
+		font-size: 5.3em;
+	}
+
+	div	#social-adjust-size{
+		 
+	}
+
+	div #senai h6{
+		font-size: 4.9em;
+	}
+
+	div	#senai-adjust-size{
+		 
+	}
+
+	div #sesi h6{
+		font-size: 5.5em;
+	}
+
+	div	#sesi-adjust-size{
+		 
+	}
+
+	div #setorial h6{
+		font-size: 4.8em;	
+		padding-top: 7%;
+	}
+
+	div #setorial-adjust-size img{
+		height: 227px;
+	}
+
+}
+
+/*Reajuste para  1032px*/
+
+@media screen and (max-width:1200px) and (min-width: 1032px) {
+
+	div #industria h6{
+		font-size: 3.5em;
+		padding-top: 0.6em;
+	}
+	
+	div #desenv h6{
+		font-size: 2.3em;
+		margin-top: -0.5em;
+	}
+
+	div	#desenv-adjust-size{
+		 
+	}
+
+	div #comercio h6{
+		font-size: 3.6em;
+		margin-top: -1em;
+	}
+
+	div	#comercio-adjust-size{
+		 
+	}
+
+	div #cni h6{
+		font-size: 6em;
+		margin-top: 0.3em;
+	}
+
+	div	#cni-adjust-size img{
+		height: 484px; 
+	}
+
+	div #mercado h6{
+		font-size: 3.7em;
+		padding-top: 0.5em;
+	}
+
+	div	#mercado-adjust-size{
+		 
+	}
+
+	div #social h6{
+		font-size: 5.3em;
+	}
+
+	div	#social-adjust-size{
+		 
+	}
+
+	div #senai h6{
+		font-size: 4.9em;
+	}
+
+	div	#senai-adjust-size{
+		 
+	}
+
+	div #sesi h6{
+		font-size: 5.5em;
+	}
+
+	div	#sesi-adjust-size{
+		 
+	}
+
+	div #setorial h6{
+		font-size: 4.8em;	
+		padding-top: 7%;
+	}
+
+	div #setorial-adjust-size img{
+		height: 227px;
+	}
+
+}
+
+/*Configura a distancia da iframe do dashboard caracteriscas empregados*/
+#frame-Caracteristicas{
+	padding-top: 10%;	
+}
+
+
+/*Configura tamanho e distancia da iframe do dashboard*/
+#iframeDashboard {
+	padding-top: 8%;	 
+}
+
+@media screen and (max-width:2000px) and (min-width: 1601px){
+	div #iframeDashboard iframe{
+		width: 1920px;
+		height: 3800px;
+	}
+}
+
+@media screen and (max-width:1600px) and (min-width: 1401px){
+	div #iframeDashboard iframe{
+		width: 1600px;
+		height: 3950px;
+	}
+}
+
+@media screen and (max-width:1336px) and (min-width: 1280px){
+	div #iframeDashboard iframe{
+		width: 1280px;
+		height: 3300px;
+	}
+}
+
+
+@media screen and (max-width:1024px ) and (min-width: 770px){
+	div #iframeDashboard iframe{
+		width: 1024px;
+		height: 2580px;
+	}
+}
+
+@media screen and (max-width:768px) and (min-width: 420px) {
+	div #iframeDashboard iframe{
+		width: 768px;
+		height: 2000px;
+	}
+}
+
+@media screen and  (max-width:414px) and (min-width: 380px) {
+	div #iframeDashboard iframe{
+		width: 414px;
+		height: 1100px;
+	}
+}
+
+@media (max-width:375px) {
+	div #iframeDashboard iframe{
+		width: 355px;
+		height: 900px;
+	}
+}
+
+
+
+/*Configura tamanho e distancia da iframe do dashboard*/
+
+@media screen and (max-width:2000px) and (min-width: 1601px){
+	div #painel-produçãoFisica iframe{
+		width: 2000px;
+		height: 2235px;
+	}
+}
+
+@media screen and (max-width:1600px) and (min-width: 1401px){
+	div #painel-produçãoFisica iframe{
+		width: 1600px;
+		height: 1747px;
+	}
+}
+
+@media screen and (max-width:1366px) and (min-width: 1030px){
+	div #painel-produçãoFisica iframe{
+		width: 1366px;
+		height: 1430px;
+	}
+}
+
+
+@media screen and (max-width:1024px ) and (min-width: 778px){
+	div #painel-produçãoFisica iframe{
+		width: 992px;
+		height: 1074px;
+	}
+}
+
+@media screen and (max-width:768px) and (min-width: 420px) {
+	div #painel-produçãoFisica iframe{
+		width: 768px;
+		height: 850px;
+	}
+}
+
+@media screen and  (max-width:414px) and (min-width: 380px) {
+	div #painel-produçãoFisica iframe{
+		width: 414px;
+		height: 510px;
+	}
+}
+
+@media (max-width:375px) {
+	div #painel-produçãoFisica iframe{
+		width: 355px;
+		height: 440px;
+	}
+}
+
+
+/*Configura tamanho e distancia da iframe do dashboard*/
+
+@media screen and (max-width:2000px) and (min-width: 1601px){
+	div #painel-comercioExt iframe{
+		width: 2000px;
+		height: 2260px;]
+		border: 0px;	
+	}
+}
+
+@media screen and (max-width:1600px) and (min-width: 1401px){
+	div #painel-comercioExt iframe{
+		width: 1600px;
+		height: 1670px;
+		border: 0px;
+	}
+}
+
+@media screen and (max-width:1366px) and (min-width: 1281px){
+	div #painel-comercioExt iframe{
+		width: 1366px;
+		height: 1350px;
+		border: 0px;
+
+	}
+}
+
+@media screen and (max-width:1280px) and (min-width: 1025px){
+	div #painel-comercioExt iframe{
+		width: 1280px;
+		height: 1240px;
+		border: 0px;
+	}
+}
+
+@media screen and (max-width:1024px ) and (min-width: 778px){
+	div #painel-comercioExt iframe{
+		width: 992px;
+		height: 998px;
+		border: 0px;
+	}
+}
+
+@media screen and (max-width:768px) and (min-width: 420px) {
+	div #painel-comercioExt iframe{
+		width: 768px;
+		height: 815px;
+		border: 0px;
+	}
+}
+
+@media screen and  (max-width:414px) and (min-width: 380px) {
+	div #painel-comercioExt iframe{
+		width: 414px;
+		height: 480px;
+		border: 0px;
+	}
+}
+
+@media (max-width:375px) {
+	div #painel-comercioExt iframe{
+		width: 375px;
+		height: 428px;
+		border: 0px;
+	}
+}
+
+/*Configura tamanho e distancia da iframe do dashboard*/
+
+@media screen and (max-width:2000px) and (min-width: 1601px){
+	div #painel-caracteristicas iframe{
+		width: 2000px;
+		height: 1100px;
+		border: 0px;
+	}
+}
+
+@media screen and (max-width:1600px) and (min-width: 1401px){
+	div #painel-caracteristicas iframe{
+		width: 1600px;
+		height: 880px;
+		border: 0px;
+	}
+}
+
+@media screen and (max-width:1366px) and (min-width: 1281px){
+	div #painel-caracteristicas iframe{
+		width: 1366px;
+		height: 752px;
+		border: 0px;
+
+	}
+}
+
+@media screen and (max-width:1280px) and (min-width: 1025px){
+	div #painel-caracteristicas iframe{
+		width: 1280px;
+		height: 706px;
+		border: 0px;
+	}
+}
+
+@media screen and (max-width:1024px ) and (min-width: 778px){
+	div #painel-caracteristicas iframe{
+		width: 1024px;
+		height: 580px;
+		border: 0px;
+	}
+}
+
+@media screen and (max-width:768px) and (min-width: 420px) {
+	div #painel-caracteristicas iframe{
+		width: 768px;
+		height: 460px;
+		border: 0px;
+	}
+}
+
+@media screen and  (max-width:414px) and (min-width: 380px) {
+	div #painel-caracteristicas iframe{
+		width: 414px;
+		height: 240px;
+		border: 0px;
+	}
+}
+
+@media (max-width:375px) {
+	div #painel-caracteristicas iframe{
+		width: 375px;
+		height: 200px;
+		border: 0px;
+	}
+}
+/****************************************
+/*definições das id's relacionadas abaixo */
+#industria h6{
+	font-size: 4em;
+	padding-top: 2%;
+}
+
+#cni h6{
+	font-size: 6em;
+	padding-top: 2%;
+}
+
+#desenv h6{
+	font-size: 2.3em;
+	padding-top: 2%;
+}
+
+#comercio h6{
+	font-size: 2.5em;
+	padding-top: 10%;
+}
+
+#setorial h6{
+	font-size: 4em;	
+	padding-top: 7%;
+}
+
+#mercado h6{
+	font-size: 4em;
+	padding-top: 3%;
+}
+
+#social h6{
+	font-size: 4.3em;
+	padding-top: 2%;
+}
+
+#senai h6{
+	font-size: 4em;
+	padding-top: 2%;
+}
+
+#sesi h6{
+	font-size: 4em;
+	padding-top: 2%;
+}
+
+/*animação das imagens - setores*/
+.portfolio_hover{
+    position: absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    width:100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.30); 
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+
+/*Definições das sobras do textos*/
+
+.textSombra{
+	text-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+
+
+
+
+
