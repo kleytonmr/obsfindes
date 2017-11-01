@@ -617,7 +617,7 @@ section.img-header{
 }
 
 
-/*Configura tamanho e distancia da iframe do dashboard*/
+/*Configura tamanho e distancia da iframe do dashboard Sindicatos filiados ao FINDES*/
 #iframeDashboard {
 	padding-top: 8%;	 
 }
@@ -674,7 +674,7 @@ section.img-header{
 
 
 
-/*Configura tamanho e distancia da iframe do dashboard*/
+/*Configura tamanho e distancia da iframe do dashboard Sindicatos filiados ao FINDES*/
 
 @media screen and (max-width:2000px) and (min-width: 1601px){
 	div #painel-produçãoFisica iframe{
@@ -727,7 +727,7 @@ section.img-header{
 }
 
 
-/*Configura tamanho e distancia da iframe do dashboard*/
+/*Configura tamanho e distancia da iframe do dashboard Sindicatos filiados ao FINDES*/
 
 @media screen and (max-width:2000px) and (min-width: 1601px){
 	div #painel-comercioExt iframe{
@@ -794,7 +794,7 @@ section.img-header{
 	}
 }
 
-/*Configura tamanho e distancia da iframe do dashboard*/
+/*Configura tamanho e distancia da iframe do dashboard Sindicatos filiados ao FINDES*/
 
 @media screen and (max-width:2000px) and (min-width: 1601px){
 	div #painel-caracteristicas iframe{

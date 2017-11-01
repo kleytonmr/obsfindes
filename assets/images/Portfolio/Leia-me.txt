@@ -1,0 +1,9 @@
+As imagens seguem uma ordem que é o número da imagem + a sua largura. 
+
+Ex: 
+
+img1770 
+
+img1 770 x 284
+
+O padrão serve para as demais imagens.
