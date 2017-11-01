@@ -29,7 +29,7 @@ body{
 section.img-header{
 	padding-top: 56px;
 }
-
+/*Ajuste Index*/
 /*Reajuste para  320px*/
 
 @media screen and (max-width: 320px) and (min-width: 300px) {
@@ -861,7 +861,7 @@ section.img-header{
 	}
 }
 /****************************************
-/*definições das id's relacionadas abaixo */
+/*Index - definições das id's relacionadas abaixo */
 #industria h6{
 	font-size: 4em;
 	padding-top: 2%;
