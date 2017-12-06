@@ -1,0 +1,27 @@
+1 Industria capixaba 	     = mantém
+2 Desenvolvimento economico  = Mercado de trabalho 
+3 Comércio exterior          = mantém 
+4 CNI 			             = Desenvolvimento Econômico e Produtividade
+5 Setorial 		   			 = Social 
+6 Mercado de trabalho        = Setorial 
+7 Social 	  			     = Senai 
+8 SENAI                      = SESI
+9 SESI  	 	 			 = CNI
+
+-------------------------------------------------------------------------
+id's:
+
+tudo que estuver com "++" após o nome que referecia a id, é o valor novo que foi comcebido
+
+industria = industria  
+cni  	  = desenv  
+desenv 	  = mercado 
+comercio  = comercio
+setorial  = social
+mercado   = setorial
+social    = senai
+senai 	  = sesi
+sesi      = cni
+
+
+
